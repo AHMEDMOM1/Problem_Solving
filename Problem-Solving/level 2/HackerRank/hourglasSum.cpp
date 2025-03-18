@@ -1,35 +1,4 @@
-/*Function Description
-Complete the function hourglassSum in the editor below.
-hourglassSum has the following parameter(s):
-
-int arr[6][6]: an array of integers.
-Returns
-
-int: the maximum hourglass sum.
-Input Format
-Each of the 6 lines of inputs arr[i] contains 6 space-separated integers arr[i][j].
-
-Constraints
-
-−9 ≤ arr[i][j] ≤ 9
-0 ≤ i, j ≤ 5
-Output Format
-Print the largest (maximum) hourglass sum found in arr.
-
-Sample Input
-1 1 1 0 0 0  
-0 1 0 0 0 0  
-1 1 1 0 0 0  
-0 0 2 4 4 0  
-0 0 0 2 0 0  
-0 0 1 2 4 0  
-
-Sample Output
-19
-
 // Question link : https://www.hackerrank.com/challenges/2d-array/problem
-
-*/
 
 #include <iostream>
 #include <limits.h> 
