@@ -1,29 +1,4 @@
-/*
-Problem Statement
-There are N boxes arranged in a row. Initially, the i-th box from the left contains aicandies.
-Snuke can perform the following operation any number of times:
-Choose a box containing at least one candy, and eat one of the candies in the chosen box.
-His objective is as follows:
-
-Any two neighboring boxes contain at most x candies in total.
-Find the minimum number of operations required to achieve the objective.
-
-Constraints
-2≤N≤10^5
-0≤ai≤10^9
-0≤x≤10^9
- 
-Input
-The input is given from Standard Input in the following format:
-
-N x
-a1 a2 .. aN​
- 
-Output
-Print the minimum number of operations required to achieve the objective.
-*/
-
-// ***Link of question*** : https://atcoder.jp/contests/arc064/tasks/arc064_a
+// Link of question: https://atcoder.jp/contests/arc064/tasks/arc064_a
 
 void prntSmEtngAple(int totalApple, vector <int>& applesInbox) {
 	cout << "Still apple in boxes is: { ";
