@@ -1,4 +1,9 @@
 // Question Link: https://atcoder.jp/contests/arc064/tasks/arc064_a
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
 
 void prntSmEtngAple(int totalApple, vector <int>& applesInbox) {
 	cout << "Still apple in boxes is: { ";
