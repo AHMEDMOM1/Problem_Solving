@@ -1,4 +1,4 @@
-// Link of question: https://atcoder.jp/contests/arc064/tasks/arc064_a
+// Question Link: https://atcoder.jp/contests/arc064/tasks/arc064_a
 
 void prntSmEtngAple(int totalApple, vector <int>& applesInbox) {
 	cout << "Still apple in boxes is: { ";
