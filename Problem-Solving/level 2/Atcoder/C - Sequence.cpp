@@ -1,32 +1,4 @@
-/*
-Problem Statement You are given an integer sequence of length N. The i-th term in the sequence is ai.In one operation, you can select a term and either increment or decrement it by one.
-At least how many operations are necessary to satisfy the following conditions? For every i (1≤i≤n), the sum of the terms from the 1-st through i-th term is not zero.
-For every i (1≤i≤n−1), the sign of the sum of the terms from the 1-st through i-th term, is different from the sign of the sum of the terms from the 1-st through (i+1)-th term.
-
-Constraints 
-2≤n≤10^5
-∣ai∣≤10^9
-
-Each ai is an integer.
-
-Input
-Input is given from Standard Input in the following format:
-n
-a1 a2 ... an
- 
-Output
-Print the minimum necessary count of operations.
-
-Sample Input 
-4
-1 -3 1 0
-Sample Output 
-4
-For example, the given sequence can be transformed into 1,−2,2,−2 by four operations. The sums of the first one, two,
-three and four terms are 1,−1,1 and −1, respectively, which satisfy the conditions.
-*/
-
-// link of question : https://atcoder.jp/contests/arc072/tasks/arc072_a
+// Qustion Link: https://atcoder.jp/contests/arc072/tasks/arc072_a
 
 vector <double> inputEqualNum() {
 	int size{};
