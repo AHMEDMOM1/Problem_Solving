@@ -1,5 +1,10 @@
 // Qustion Link: https://atcoder.jp/contests/arc072/tasks/arc072_a
 
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
 vector <double> inputEqualNum() {
 	int size{};
 	do {
