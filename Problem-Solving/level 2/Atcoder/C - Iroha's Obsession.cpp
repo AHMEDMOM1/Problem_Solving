@@ -95,7 +95,7 @@ vector <short> inputNumbers() {
 	size_t total{}, K{};
 	
 	do{
-	    cout << "How much will you pay (Choose a number smaller than) : ";
+	    cout << "How much will you pay (Choose a number smaller than 10000) : ";
 	    cin >> total;
 	} while(total > 10000);
 
